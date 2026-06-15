@@ -2,7 +2,7 @@
 
 A stock and cryptocurrency price tracker for the ESP32 Cheap Yellow Display (CYD / ESP32-2432S028).
 Displays live prices, percentage change, and portfolio value on the built-in 2.8" TFT touchscreen.
-Configured entirely via a browser — no code changes needed.
+Configured entirely via a browser, no code changes required.
 
 ![ESP32 CYD Stock Ticker running on device](docs/hero.jpg)
 
@@ -67,6 +67,6 @@ This configures the correct pins for the CYD.
 
 MIT — free to use, modify, and distribute.
 
----
+
 
 Built by [Zaitronics](https://zaitronics.com.au) — electronics components and maker supplies, Melbourne AU.
