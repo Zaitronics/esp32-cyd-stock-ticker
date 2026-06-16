@@ -166,7 +166,7 @@ String displaySym(const String &sym) {
   if (isCryptoTicker(sym)) {
     String id = cryptoId(sym);
     id.toUpperCase();
-    if (id.length() > 6) id = id.substring(0, 6);
+    if (id.length() > 8) id = id.substring(0, 8);
     return id;
   }
   return sym;
@@ -275,10 +275,12 @@ void fetchFinnhub(int idx) {
     if (!deserializeJson(doc, http.getString())) {
       float c = doc["c"]; // current price
       float o = doc["o"]; // today's open
+      float pc = doc["pc"];  // previous close
+      
       if (c > 0) {
         q.price = c;
-        q.open  = o;
-        q.pct   = (o > 0) ? ((c - o) / o * 100.0f) : 0.0f;
+        q.open  = pc;
+        q.pct   = (pc > 0) ? ((c - pc) / pc * 100.0f) : 0.0f;
         q.valid = true;
         q.errors = 0;
       } else {
