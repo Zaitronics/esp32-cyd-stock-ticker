@@ -4,7 +4,11 @@ A stock and cryptocurrency price tracker for the ESP32 Cheap Yellow Display (CYD
 Displays live prices, percentage change, and portfolio value on the built-in 2.8" TFT touchscreen.
 Configured entirely via a browser, no code changes required.
 
-![ESP32 CYD Stock Ticker running on device](docs/hero.jpg)
+![ESP32 CYD Stock Ticker showing 3 tickers](https://cdn.shopify.com/s/files/1/0870/0021/9940/files/20260617_125927.jpg?v=1781667798)
+
+## Demo
+
+[![ESP32 CYD Stock Ticker Demo](https://img.youtube.com/vi/qng6zG75FMI/maxresdefault.jpg)](https://www.youtube.com/watch?v=qng6zG75FMI)
 
 ## Features
 
@@ -17,6 +21,12 @@ Configured entirely via a browser, no code changes required.
 - Full web UI for configuration — change tickers, refresh rate, brightness, holdings and alerts from any browser on your network
 - JSON API endpoint at `/api/quotes` for home automation integration
 - WiFiManager captive portal — no hardcoded credentials
+
+![ESP32 CYD Stock Ticker showing 8 tickers in 2 column grid](https://cdn.shopify.com/s/files/1/0870/0021/9940/files/20260617_130053.jpg?v=1781667798)
+
+![ESP32 CYD Stock Ticker portfolio mode](https://cdn.shopify.com/s/files/1/0870/0021/9940/files/20260617_130153.jpg?v=1781667798)
+
+![ESP32 CYD Stock Ticker light mode](https://cdn.shopify.com/s/files/1/0870/0021/9940/files/20260617_130115.jpg?v=1781667798)
 
 ## Hardware
 
@@ -67,6 +77,6 @@ This configures the correct pins for the CYD.
 
 MIT — free to use, modify, and distribute.
 
-
+---
 
 Built by [Zaitronics](https://zaitronics.com.au) — electronics components and maker supplies, Melbourne AU.
