@@ -40,7 +40,7 @@ Configured entirely via a browser, no code changes required.
 3. Get a free Finnhub API key at [finnhub.io](https://finnhub.io)
 4. Open the displayed IP address in your browser to configure tickers
 
-**Full build guide:** https://zaitronics.com.au/blogs/guides/esp32-cyd-stock-ticker
+**Full build guide:** https://zaitronics.com.au/blogs/projects/esp32-cyd-stock-ticker
 
 ## Supported Ticker Formats
 
